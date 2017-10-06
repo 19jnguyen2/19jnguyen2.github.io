@@ -1,0 +1,54 @@
+@font-face{
+    font-family: James;
+    src: url(fonts/bromello.ttf)
+}
+body{
+    background-image: url();
+    font-family: "James", monospace;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+h1{
+    font-family: "James", monospace;
+    text-align: center;
+    font-size: 525%;
+}
+p {
+    font-size: 50px
+}
+p {
+    text-align: center;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow:hidden;
+    background-color: black;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+#nav li a:hover {
+    background-color: grey;
+    color: black;
+}
+#nav li a:active {
+    background-color: black;
+    color: white;
+
+}
+#home {
+    background-image: url(images/sky.jpg);
+}
