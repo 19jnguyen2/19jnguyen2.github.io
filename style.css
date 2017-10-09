@@ -1,54 +1,188 @@
 @font-face{
     font-family: James;
-    src: url(fonts/bromello.ttf)
+    src: url(fonts/bromello.ttf);
 }
-body{
-    background-image: url();
-    font-family: "James", monospace;
-    background-color: #ffffff;
+#body1{
+    background-color: #6A7B76;
+    background-image: url(images/citysky.jpg);
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: black;
+    
 }
+
+#body2{
+    background-color: #6A7B76;
+    background-image: url(images/idk.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 h1{
-    font-family: "James", monospace;
+    font-family: "circ";
     text-align: center;
-    font-size: 525%;
+    font-size: 100px;
 }
-p {
-    font-size: 50px
+#home{
+    color:white;
+    font-family: "James";
+    line-height: 350.7px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    width: 100%;
 }
-p {
-    text-align: center;
-}
-#nav {
+#nav{
+    font-family: "James";
     list-style-type: none;
     margin: -8px;
-    padding: 0;
-    overflow:hidden;
+    padding:0;
+    overflow: hidden;
     background-color: black;
+    
 }
 #nav li {
-    float: left;
+    float:right;
 }
+
 #nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
-    font-size: 20px
+    font-size: 18px;
 }
-#nav li a:hover {
-    background-color: grey;
-    color: black;
+ #nav li a:hover {
+    background-color: #BEB0A7;
+    color:white;
 }
-#nav li a:active {
+#nav li a:active{
     background-color: black;
-    color: white;
-
+    color:white;
 }
-#home {
-    background-image: url(images/sky.jpg);
+
+/* unvisited link */
+#nav:link {
+    color: white;
+}
+
+/* visited link */
+#nav:visited {
+    color: white;
+}
+
+/* mouse over link */
+#nav:hover {
+    color: white;
+}
+
+
+/* selected link */
+#nav:active {
+    color: white;
+}
+
+#div {
+    margin:50px;
+    padding:75px;
+    text-align: center
+}
+.dropbtn {
+    background-color: black;
+    font-family: "James";
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+  .dropdown {
+    position: fixed;
+    display:inline-block;
+    
+}
+
+ .dropdown-content {
+     font-family: "James";
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: "James";
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+ .dropdown-content a:hover {background-color:black;}
+
+ .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color:  grey;
+}
+#panel1{
+    width: 70%;
+}
+
+#pbody1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #3D5A6C;
+    
+}
+#pheading1{
+font-family: sans-serif;
+font-size: 28px;
+  color: white;
+  background-color: #3D5A6C;
+}
+#name1{
+    color:  white;
+}
+#body3{
+    background-color: white;
+}
+#cred{
+    font-family: "James";
+    font-size: 18px;
+}
+#body3{
+    background-color: #6A7B76;
+    background-image: url(images/skyscape.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#body{
+    background-color: #6A7B76;
+    background-image: url(images/1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#section{
+    float: left;
+    margin-right: 30px;
+}
+#resu{
+    color: white;
+    
 }
